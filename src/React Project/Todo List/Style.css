@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    padding: .5rem 0;
+    color: navy;
+    font-weight: 700;
+    text-decoration: underline;
+
+}
+
+
+.showItems {
+    margin-top: 1rem;
+    text-align: center;
+    
+    
+  }
+  
+  .eachItem {
+    background: #fff;
+    padding: 1rem 1rem;
+    /* border-radius: 0.2rem; */
+    /* margin-bottom: 0.7rem;
+    margin-left: 1rem; */
+    /* min-width: 40rem; */
+    margin: 0 auto;
+    width: 14.5rem;
+    word-break: break-word;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    border: 1px solid black;
+    text-transform: capitalize;
+    
+  }
+  
+  .eachItem:hover {
+    background: rgb(249, 249, 252);
+    
+  }
+  
+  .showItems .eachItem h3 {
+    padding-left: 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+  }
+  
+  .my-btn{
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
+
+  .main-div{
+    border: 1px solid black;
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  .input{
+    text-decoration: none;
+    border: none;
+    padding: 0.5rem;
+    
+  }
+
+  .input:focus{
+        outline: none;
+             
+  }
+
+  .icon1{
+    padding: 0.5rem;
+    /* font-weight: bolder; */
+    /* padding-right: 0.5rem; */
+  }
+
+  .icon1:hover{
+    color: rgb(0, 249, 46);
+    cursor: pointer;
+    
+  }
+
+  .icon2{
+    cursor: pointer;
+    
+  }
+
+  .icon2:hover{
+    color: rgb(255, 6, 6)
+}
+
+.icon3{
+  cursor: pointer;
+  margin-left: auto;
+  padding-right: .8rem;
+
+}
+
+.icon3:hover{
+  color: rgb(68, 6, 255)
+}
